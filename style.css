@@ -1,0 +1,550 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100%;
+    background-image: url("imagenes/matrix02D.jpg");
+}
+
+header{
+    background-color: #204829;
+    padding: 50px;
+}
+
+main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.ingresar{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #80ce87;
+    
+}
+
+.aclaracion{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+
+.exclamacion{
+    width: 15px;
+
+}
+
+.botonesEntrada{
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.boton{
+    margin: 10px;
+    padding: 15px 40px 15px 40px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: #22b455;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.boton:hover{
+    background: black;
+}
+
+.botonesSalida{
+    margin-top: 35px;
+    text-align: center;
+    
+}
+
+.salir{
+    
+    width: 350px;
+    height: 400px;
+    background-color: #80ce87;
+    border-radius: 5px;
+    background-image: url("figma/MuñecoMatrix.png"),url("figma/Frame5.png");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 250px,250px;
+    background-position-x: center,center;
+    background-position-y: 35px,280px;
+
+}
+
+footer{
+    margin-top: auto;
+    background-color: #020204;
+    color: #FFFFFF;
+    padding: 50px;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* Media Queries Tablets */
+
+@media screen and (max-width:912px) {
+    html{
+        height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column; 
+        min-height: 100%;
+        background-image: url("imagenes/matrix02D.jpg");
+    }
+    
+    header{
+    
+        background: #204829;
+        padding: 20px;
+        
+    }
+
+    main{
+        margin-top: 60px;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    
+    .seccionA{
+        text-align: center;
+    }
+    
+
+    .ingresar{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        background-color: #80ce87;
+        
+    }
+    
+    .aclaracion{
+    
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        
+    }
+    
+    .botonesEntrada{
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .boton{
+        margin: 5px;
+        padding: 15px 30px 15px 30px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background: #22b455;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    
+    .boton:hover{
+        background: black;
+    }
+    
+    .botonesSalida{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    
+    
+    .seccionB{
+        text-align: center;
+    }
+    
+
+    .salir{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        background-color: #80ce87;
+        border-radius: 5px;
+        background-image: url("figma/MuñecoMatrix.png"),url("figma/Frame5.png");
+        background-repeat: no-repeat,no-repeat;
+        background-size: 250px,250px;
+        background-position-x: center,center;
+        background-position-y: 35px,280px;
+    
+    }
+    
+    footer{
+    
+        background-color: #020204;
+        color: #FFFFFF;
+        padding: 60px;
+        text-align: center;
+    
+    }
+}
+
+@media screen and (max-width:820px) {
+    html{
+        height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column; 
+        min-height: 100%;
+        background-image: url("imagenes/matrix02D.jpg");
+    }
+    
+    header{
+    
+        background: #204829;
+        padding: 20px;
+        
+    }
+
+    main{
+        margin-top: 10px;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    
+    .seccionA{
+        text-align: center;
+    }
+    
+
+    .ingresar{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        background-color: #80ce87;
+        
+    }
+    
+    .aclaracion{
+    
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        
+    }
+    
+    .botonesEntrada{
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .boton{
+        margin: 5px;
+        padding: 15px 30px 15px 30px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background: #22b455;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    
+    .boton:hover{
+        background: black;
+    }
+    
+    .botonesSalida{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    
+    
+    .seccionB{
+        text-align: center;
+    }
+    
+    .salir{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        background-color: #80ce87;
+        border-radius: 5px;
+        background-image: url("figma/MuñecoMatrix.png"),url("figma/Frame5.png");
+        background-repeat: no-repeat,no-repeat;
+        background-size: 250px,250px;
+        background-position-x: center,center;
+        background-position-y: 35px,280px;
+    
+    }
+    
+    footer{
+    
+        background-color: #020204;
+        color: #FFFFFF;
+        padding: 60px;
+        text-align: center;
+    
+    }
+}
+
+/* Media Queries Celulares */ 
+
+@media screen and (max-width:640px) {
+    html{
+        height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column; 
+        min-height: 100%;
+        background-image: url("imagenes/matrix02D.jpg");
+    }
+    
+    header{
+    
+        background: #204829;
+        padding: 20px;
+        
+    }
+
+    main{
+        margin-top: 10px;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    
+    .seccionA{
+        text-align: center;
+    }
+    
+    .ingresar{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        background-color: #80ce87;
+        
+    }
+    
+    .aclaracion{
+    
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        
+    }
+    
+    .botonesEntrada{
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .boton{
+        margin: 5px;
+        padding: 15px 30px 15px 30px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background: #22b455;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    
+    .boton:hover{
+        background: black;
+    }
+    
+    .botonesSalida{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    
+    
+    .seccionB{
+        text-align: center;
+    }
+    
+
+    .salir{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 400px;
+        background-color: #80ce87;
+        border-radius: 5px;
+        background-image: url("figma/MuñecoMatrix.png"),url("figma/Frame5.png");
+        background-repeat: no-repeat,no-repeat;
+        background-size: 250px,250px;
+        background-position-x: center,center;
+        background-position-y: 35px,280px;
+    
+    }
+    
+    footer{
+        
+        background-color: #020204;
+        color: #FFFFFF;
+        padding: 50px;
+        text-align: center;
+
+       
+    }
+}
+
+/*---------------------------------------*/
+
+@media screen and (max-width:280px) {
+    html{
+        height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column; 
+        min-height: 100%;
+        background-image: url("imagenes/matrix02D.jpg");
+    }
+    
+    header{
+    
+        background: #204829;
+        padding: 20px;
+        
+    }
+
+    main{
+        margin-top: 10px;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    
+    .seccionA{
+        text-align: center;
+    }
+    
+
+    .ingresar{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 370px;
+        border-radius: 5px;
+        background-color: #80ce87;
+        
+    }
+    
+    .aclaracion{
+    
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        
+    }
+    
+    .botonesEntrada{
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .boton{
+        margin: 5px;
+        padding: 15px 30px 15px 30px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background: #22b455;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    
+    .boton:hover{
+        background: black;
+    }
+    
+    .botonesSalida{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+        
+    }
+    
+    .seccionB{
+        text-align: center;
+    }
+    
+    .salir{
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 370px;
+        background-color: #80ce87;
+        border-radius: 5px;
+        background-image: url("figma/MuñecoMatrix.png"),url("figma/Frame5.png");
+        background-repeat: no-repeat,no-repeat;
+        background-size: 220px,220px;
+        background-position-x: center,center;
+        background-position-y: 35px,280px;
+    
+    }
+    
+    footer{
+        
+        background-color: #020204;
+        color: #FFFFFF;
+        padding: 50px;
+        text-align: center;
+
+       
+    }
+}

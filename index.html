@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1a032148c9.js" crossorigin="anonymous"></script>
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <h1><img src="figma/VectorMatrix2.png" alt=""></h1>
+        </header>
+        <main>   
+            <section>
+                <textarea id="input-texto" class="ingresar" type="text" placeholder="Ingrese el Texto Aquí"></textarea>
+                <div class="aclaracion">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small> Solo letras minúsculas y sin acentos</small>
+                </div>
+                <div class="botonesEntrada">
+                    <button class="boton" id="botonEncriptar">Encriptar</button>
+                    <button class="boton" id="botonDesencriptar" value="Desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea id="output-texto" class="salir"></textarea>
+                <div class="botonesSalida">
+                    <button class="boton" id="botonCopiar">Copiar</button>
+                    <button class="boton" type="reset" id="borrar">Borrar</button>
+                </div>
+            </section>
+        </main> 
+        <footer>
+            <p>&copy Copyright Federico Zunino Ventura - 2022</p>
+        </footer>
+        <script src="javascript.js"></script>
+    </body>
+</html>
